@@ -1,5 +1,5 @@
 # Arquitetura de Infraestrutura Híbrida CANTU PNEUS
-## Equipamentos utilizados On-Primese 
+## Dispositivos utilizados On-Primese 
 ### Matriz-Escritório
 - 1 Routerborder Mikrotik - LINK1
 - 1 Routerborder Mikrotik - LINK2
