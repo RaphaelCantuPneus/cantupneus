@@ -33,7 +33,7 @@
 - Configurado o empilhamento dos switches
 - Configurado rota default
 
-### Criado VLANs e configurado sub-rede
+### Criado VLANs e configurado sub-redes
 - VLAN4 (Trânsito) - 172.16.4.1/22
 - VLAN6 (Trânsito) - 172.16.6.1/22
 - VLAN10 (Gerência) - 172.16.1.254/22
@@ -75,10 +75,10 @@
 ## Firewalls Fortigate
 - Configurado o HA - alta disponilibilidade
 - Realizado integração com o AD
-- Criado as vlans de transito e demais
+- Criado as vlans de trânsito e demais
 - Criado Roteamento 
 - Configurado os VIP
-- Configurado o Gateway
+- Configurado os Gateways
 - Configurado WebFilter
 - Configurado Firewall Policy
 - Configurado SDWAN;
@@ -89,9 +89,9 @@
 - Criado RAID10  
 - Instalado e configurado o Hyper-V Server
 - Criado as máquina virtuais: VSRV-AD01, VSRV-AD02, VSRV-AADC, VSRV-FS01, VSRV-FS02, VSRV-DEV, VSRV-PRNT e VSRV-UNIF
-- VM VSRV-AD01: Instalado Windows Server 2022. Instalado Active Directory Domain Services (AD DS) e promovido a controlador de domínio. Configurado UPN com sufixo cantupneus.com.br.Configurado as OU, grupos e usuários Instalado e configurado o serviço de NPS para 802.1x Wireless.
-- VM VSRV-AD02: Instalado Windows Server 2022. Instalado e configurado o controlador de domínio secundário e validado a replicação;
-- VM VSRV-AADC: Instalado Windows Server 2022. Ingressado no dominio, instalado e configurado o AAD connect
+- VM VSRV-AD01: Instalado Windows Server 2022. Instalado Active Directory Domain Services (AD DS) e promovido a controlador de domínio. Configurado UPN com sufixo cantupneus.com.br. Configurado OU, grupos e usuários. Instalado e configurado o serviço de NPS para 802.1x Wireless
+- VM VSRV-AD02: Instalado Windows Server 2022. Instalado e configurado o controlador de domínio secundário e validado a replicação
+- VM VSRV-AADC: Instalado Windows Server 2022. Ingressado no domínio, instalado e configurado o AAD Connect
 - VM VSRV-FS01: Instalado Windows Server 2022. Instalado a função de file server. Instalado e configurando o DFS e replicação de arquivos
 - VM VSRV-FS02:Instalado Windows Server 2022. Instalado e configurando o DFS e replicação de arquivos
 - VSRV-DEV: Instalado Windows Server 2022. Instalado e configurado o  Git, GitHub, MYSQL, MYSQL Workbench, Dotnet8 e Nodejs e demais dependências
@@ -103,7 +103,7 @@
 ## Azure Active Directory
 - Criado conta Azure
 - Criado Tenant
-- Adicionado dominio 
+- Adicionado domínio da empresa
 - Criado usuário global administrator
 - Habilitado o MFA
 - Criado e configurado o Registro da aplicação para SSO (Single Sign-On)
@@ -112,18 +112,17 @@
 - Integrado o aplicativo com o GitHub 
 - Integrado o aplicativo com o banco de dados
 - Habilitado e configurado os logs de diagnóstico
-- Configurado Dominios personalizados
+- Configurado domínios personalizados
 - Configurada uma regra de firewall para permitir o acesso ao backoffice a partir do intervalo de IPs públicos no on-premise
 
 ## WebApp Backend
 - Criado o aplicativo Web
-- Criado um Grupo de recurso
+- Criado um grupo de recurso
 - Ambiente Linux
 - Definido o plano de serviço de aplicativo (Produção)
 - Configurado Backup
-- Habilitado Auto Scale automático
-- Definido a linguagem dotnet8
-- Criado o aplicativo Web para o frontend
+- Habilitado auto scale automático
+- Definido framework dotnet8
 
 ## WebApp Frontend
 - Criado o aplicativo Web
@@ -132,8 +131,7 @@
 - Definido o plano de serviço de aplicativo (Produção)
 - Configurado Backup
 - Habilitado Auto Scale automático
-- Definido a linguagem nodejs
-- Criado o aplicativo Web para o frontend
+- Definido a ferramenta nodejs
 
 ## Banco de dados MYSQL
 - Criado servidor de banco de dados
@@ -142,7 +140,6 @@
 - Definido a localização
 - Definido a versão
 - Definido o Hardware
-- Habilitado a função para que outros serviços do azure acessem o banco
 
 ## Azure Front Door
 - Criado Front Door 
