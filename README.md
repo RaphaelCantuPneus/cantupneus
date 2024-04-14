@@ -121,7 +121,7 @@
 - Ambiente Linux
 - Definido o plano de serviço de aplicativo (Produção)
 - Configurado Backup
-- Habilitado auto scale automático
+- Habilitado o auto scale automático
 - Definido framework dotnet8
 
 ## WebApp Frontend
@@ -130,7 +130,7 @@
 - Ambiente Linux
 - Definido o plano de serviço de aplicativo (Produção)
 - Configurado Backup
-- Habilitado Auto Scale automático
+- Habilitado o auto scale automático
 - Definido a ferramenta nodejs
 
 ## Banco de dados MYSQL
