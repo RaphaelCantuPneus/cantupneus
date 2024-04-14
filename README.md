@@ -1,4 +1,4 @@
-# Diagrama de Arquitetura de Infraestrutura Híbrida CantuPneus
+# Arquitetura de Infraestrutura Híbrida CANTU PNEUS
 ## Equipamentos utilizados On-Primeses 
 ### Matriz-Escritório
 - 1 Routerborder Mikrotik - LINK1
